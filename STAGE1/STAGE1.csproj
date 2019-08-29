@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8352FDF-5E32-43BF-BD89-81AD20A619D3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>STAGE1</RootNamespace>
+    <AssemblyName>STAGE1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Boss.cs" />
+    <Compile Include="BossPower.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Bullet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeroShot.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Obstacle2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PauseMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PauseMenu.Designer.cs">
+      <DependentUpon>PauseMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start_Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start_Game.Designer.cs">
+      <DependentUpon>Start_Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome_Screen.Designer.cs">
+      <DependentUpon>Welcome_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Obstacle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PauseMenu.resx">
+      <DependentUpon>PauseMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Start_Game.resx">
+      <DependentUpon>Start_Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome_Screen.resx">
+      <DependentUpon>Welcome_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Asset 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="backs1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\backs1.png" />
+    <None Include="Resources\JUMP.gif" />
+    <None Include="Resources\Bullet.gif" />
+    <None Include="Resources\H1Down.gif" />
+    <None Include="Resources\H1Jump.gif" />
+    <None Include="Resources\H1Left.gif" />
+    <None Include="Resources\H1Right.gif" />
+    <None Include="Resources\H1Shoot.gif" />
+    <None Include="Resources\H1JumpL.gif" />
+    <None Include="Resources\H1DownL.gif" />
+    <None Include="Resources\H1ShootL.gif" />
+    <None Include="Resources\jumpL.png" />
+    <None Include="Resources\crouch-shoot.png" />
+    <None Include="Resources\jump.png" />
+    <None Include="Resources\shoot.png" />
+    <None Include="Resources\shoot-rev.png" />
+    <None Include="Resources\H2run rev.gif" />
+    <None Include="Resources\h2jumpL.png" />
+    <None Include="Resources\h2 shoot-rev.png" />
+    <None Include="Resources\h1-crouch.png" />
+    <None Include="Resources\h1-crouch-rev.png" />
+    <None Include="Resources\h1-crouch-shoot.gif" />
+    <None Include="Resources\h1-crouch-shoot-rev.gif" />
+    <None Include="Resources\h1-jump.gif" />
+    <None Include="Resources\h1-jump-rev.gif" />
+    <None Include="Resources\h1-move-left.gif" />
+    <None Include="Resources\h1-move-right.gif" />
+    <None Include="Resources\h1-shoot.gif" />
+    <None Include="Resources\h1-shoot-rev.gif" />
+    <None Include="Resources\h1-stand.png" />
+    <None Include="Resources\h1-stand-rev.png" />
+    <None Include="Resources\crouch shoot.gif" />
+    <None Include="Resources\crouch.png" />
+    <None Include="Resources\jump1.png" />
+    <None Include="Resources\run rev.gif" />
+    <None Include="Resources\run.gif" />
+    <None Include="Resources\shoot rev.gif" />
+    <None Include="Resources\shoot.gif" />
+    <None Include="Resources\stand.png" />
+    <None Include="Resources\stand-rev.png" />
+    <None Include="Resources\h2 run rev.gif" />
+    <None Include="Resources\h2 stand.png" />
+    <None Include="Resources\H2crouch.png" />
+    <None Include="Resources\H2crouch-shoot.png" />
+    <None Include="Resources\h2jump.png" />
+    <None Include="Resources\h2run.gif" />
+    <None Include="Resources\h2shoot.png" />
+    <None Include="Resources\h2-shoot-rev.png" />
+    <None Include="Resources\H2stand-rev.png" />
+    <None Include="Resources\h2jump_rev.png" />
+    <None Include="Resources\jump_rev.png" />
+    <None Include="Resources\H2crouchL.png" />
+    <None Include="Resources\H2crouch-shootL.png" />
+    <None Include="Resources\crouch shootL.gif" />
+    <None Include="Resources\crouchL.png" />
+    <None Include="Resources\h3_crouch.png" />
+    <None Include="Resources\h3_crouch_rev.png" />
+    <None Include="Resources\h3_crouch_shoot.png" />
+    <None Include="Resources\h3_crouch_shoot_rev.png" />
+    <None Include="Resources\h2.png" />
+    <None Include="Resources\h2_off.png" />
+    <None Include="Resources\h1.png" />
+    <None Include="Resources\h1_off.png" />
+    <None Include="Resources\b1.png" />
+    <None Include="Resources\b1_fireball.png" />
+    <None Include="Resources\b1_off.png" />
+    <None Include="Resources\b1_shoot_rev.png" />
+    <None Include="Resources\b1_stand.png" />
+    <None Include="Resources\b1_stand_reverse.png" />
+    <None Include="Resources\b1_walk.gif" />
+    <None Include="Resources\b1_walk_rev.gif" />
+    <None Include="Resources\b1-shoot.png" />
+    <None Include="Resources\b1-walk.gif" />
+    <None Include="Resources\b1-walk-rev.gif" />
+    <None Include="Resources\h2_crouch.png" />
+    <None Include="Resources\h2_crouch_rev.png" />
+    <None Include="Resources\h2_crouch_shoot.png" />
+    <None Include="Resources\h2_crouch_shoot_rev.png" />
+    <None Include="Resources\h3.png" />
+    <None Include="Resources\h3_off.png" />
+    <None Include="Resources\b1_fireball_spec.png" />
+    <None Include="Resources\b1_spec.png" />
+    <None Include="Resources\b1_spec_mode_on_walk.gif" />
+    <None Include="Resources\b1_spec_mode_on_walk_rev.gif" />
+    <None Include="Resources\hero_death.gif" />
+    <None Include="Resources\boss_death.gif" />
+    <None Include="Resources\boss1_death.png" />
+    <None Include="Resources\welcome_page.png" />
+    <None Include="Resources\exit_button.png" />
+    <None Include="Resources\start_button.png" />
+    <None Include="Resources\b2.png" />
+    <None Include="Resources\b2_off.png" />
+    <None Include="Resources\b2_shoot.png" />
+    <None Include="Resources\b2_shoot_rev.png" />
+    <None Include="Resources\b2_spec.png" />
+    <None Include="Resources\b2_spec_mode_on_walk.gif" />
+    <None Include="Resources\b2_spec_mode_on_walk_rev.gif" />
+    <None Include="Resources\b2_stand.png" />
+    <None Include="Resources\b2_stand_rev.png" />
+    <None Include="Resources\b2_walk.gif" />
+    <None Include="Resources\b2_walk_rev.gif" />
+    <None Include="Resources\b2_wave.png" />
+    <None Include="Resources\b2_wave_spec.png" />
+    <None Include="Resources\boss2_death.png" />
+    <None Include="Resources\backs2.jpg" />
+    <Content Include="shootingc1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

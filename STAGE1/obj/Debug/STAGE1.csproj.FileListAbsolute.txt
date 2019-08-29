@@ -1,0 +1,48 @@
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.csprojResolveAssemblyReference.cache
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.STAGE1Frame.resources
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.Properties.Resources.resources
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.csproj.GenerateResource.Cache
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.csproj.CoreCompileInputs.cache
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\bin\Debug\Asset 1.png
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\bin\Debug\STAGE1.exe.config
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\bin\Debug\STAGE1.exe
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\bin\Debug\STAGE1.pdb
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.exe
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.pdb
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\bin\Debug\backs1.png
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.GameOver.resources
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.Start_Game.resources
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.Welcome_Screen.resources
+F:\Workspace\Triple Threat project\STAGE1\STAGE1\obj\Debug\STAGE1.PauseMenu.resources
+C:\Users\User\Desktop\STAGE1\STAGE1\bin\Debug\Asset 1.png
+C:\Users\User\Desktop\STAGE1\STAGE1\bin\Debug\backs1.png
+C:\Users\User\Desktop\STAGE1\STAGE1\bin\Debug\STAGE1.exe.config
+C:\Users\User\Desktop\STAGE1\STAGE1\bin\Debug\STAGE1.exe
+C:\Users\User\Desktop\STAGE1\STAGE1\bin\Debug\STAGE1.pdb
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.STAGE1Frame.resources
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.GameOver.resources
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.PauseMenu.resources
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.Properties.Resources.resources
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.Start_Game.resources
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.Welcome_Screen.resources
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.exe
+C:\Users\User\Desktop\STAGE1\STAGE1\obj\Debug\STAGE1.pdb
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\bin\Debug\Asset 1.png
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\bin\Debug\backs1.png
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\bin\Debug\STAGE1.exe.config
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\bin\Debug\STAGE1.exe
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\bin\Debug\STAGE1.pdb
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.STAGE1Frame.resources
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.GameOver.resources
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.PauseMenu.resources
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.Properties.Resources.resources
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.Start_Game.resources
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.Welcome_Screen.resources
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.csproj.GenerateResource.Cache
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.exe
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.pdb
+C:\Users\User\Documents\C# projects 16-31260-1\STAGE1\STAGE1\obj\Debug\STAGE1.csprojAssemblyReference.cache
